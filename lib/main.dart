@@ -9,6 +9,7 @@ import './screens/product_details_screen.dart';
 import './providers/products.dart';
 import 'package:provider/provider.dart';
 import './providers/cart.dart';
+import './screens/auth_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -38,7 +39,7 @@ class MyApp extends StatelessWidget {
           visualDensity: VisualDensity.adaptivePlatformDensity,
           fontFamily: 'Lato',
         ),
-        home: ProductsOverviewScreen(),
+        home: AuthScreen(),
         routes: {
           ProductDetailScreen.routeName: (ctx) => ProductDetailScreen(),
           CartScreen.routeName: (ctx) => CartScreen(),
