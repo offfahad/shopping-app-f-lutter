@@ -14,6 +14,10 @@ Shop App is an e-commerce app developed in Flutter with Firebase integration. Wi
 - Customers can view their order history.
 - Notification support for order updates.
 
+## User Interface Demo
+
+https://user-images.githubusercontent.com/19569802/235353343-be45f23a-06e6-404f-b2fe-58125f967458.mp4
+
 ## Prerequisites
 
 Before you can use the Shop App, you need to have the following:
